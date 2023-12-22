@@ -1,4 +1,4 @@
-baseURL = "https://fmmmendes.github.io/finnmester"
+baseURL = "https://fmmmendes.github.io/finnmester/"
 defaultContentLanguage = "en"
 languageCode = "en"
 
@@ -33,10 +33,10 @@ enableRobotsTXT = true
   weight = 1
 
   [[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
-  weight = 2
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
 
   [[menu.main]]
     identifier = "about"
@@ -56,7 +56,7 @@ enableRobotsTXT = true
   description = """Amapiano, Deep House, Eletronica, Techno, Metal and 80's.
   All the ingredients for a great musical experience."""
   descriptionShort = """Amapiano, Deep House, Eletronica, Techno, Metal and 80's."""
-  avatarURL = "images/finnmester_logo.png"
+  avatarURL = "/images/finnmester_logo.png"
   avatarSize = "size-l"
 
 
