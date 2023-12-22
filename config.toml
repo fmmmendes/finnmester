@@ -1,0 +1,67 @@
+baseURL = "https://fmmmendes.github.io/finnmester"
+defaultContentLanguage = "en"
+languageCode = "en"
+
+title = ""
+theme = "gokarna"
+
+publishDir = "docs"
+relativeURLs = false
+enableEmoji = true
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+
+[menu]
+  [[menu.main]]
+  # Unique identifier for a menu item
+  identifier = "posts"
+  
+  url = "/posts/"
+
+  # You can add extra information before the name (HTML format is supported), such as icons
+  pre = ""
+  
+  # You can add extra information after the name (HTML format is supported), such as icons
+  post = ""
+  
+  # Display name
+  name = "Posts"
+  
+  # Weights are used to determine the ordering
+  weight = 1
+
+  [[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+    
+#  [[menu.main]]
+#    identifier = "github"
+#    url = "https://github.com"
+#    weight = 3
+#    
+#    # We use feather-icons: https://feathericons.com/
+#    pre = "<span data-feather='github'></span>"
+
+[params]
+  description = """Amapiano, Deep House, Eletronica, Techno, Metal and 80's.
+  All the ingredients for a great musical experience."""
+  descriptionShort = """Amapiano, Deep House, Eletronica, Techno, Metal and 80's."""
+  avatarURL = "/images/finnmester_logo.png"
+  avatarSize = "size-l"
+
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 4
+    ordered = false
