@@ -46,7 +46,8 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - name: Add Hugo Theme
-        run: git submodule add -f https://github.com/526avijitgupta/gokarna.git themes/gokarna
+        # run: git submodule add -f https://github.com/526avijitgupta/gokarna.git themes/gokarna
+        run: git submodule add -f https://github.com/fmmmendes/gokarna.git themes/gokarna
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
