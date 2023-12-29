@@ -1,3 +1,5 @@
+# FINN MESTER WEBSITE
+
 Website created on hugo framework based on Gokarna theme.
 
 To use the theme execute the following command from the root of this repo:
